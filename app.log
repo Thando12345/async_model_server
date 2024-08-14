@@ -1,0 +1,6 @@
+2024-08-14 19:15:22,452 - INFO - Sent request: {'request_id': '1234', 'type': 'training', 'data': 'data'}
+2024-08-14 19:15:22,452 - INFO - Received response: {'response': 'INTERNAL_EXIT'}
+2024-08-14 19:16:40,481 - INFO - Sent shutdown request: {'request_id': 'INTERNAL_EXIT'}
+2024-08-14 19:17:26,424 - INFO - Sent request: {'request_id': '0', 'type': 'testing', 'data': 'data_0'}
+2024-08-14 19:17:26,424 - INFO - Received response: {'response': 'INTERNAL_EXIT'}
+2024-08-14 19:17:26,929 - INFO - Sent request: {'request_id': '1', 'type': 'testing', 'data': 'data_1'}
