@@ -60,16 +60,19 @@ Example Configuration (config/config.json)
 1. Starting the Model Server
 
 The model server process listens for requests and processes them.
+
 python model_server/ai_model_server.py
 
 2. Starting the Main Application
 
 Start the main application that handles ZeroMQ communication and routing.
+
 python app.py
 
 3. Testing the Server
 
 A test client script is provided to send a test request to the server and receive a response.
+
 python examples/test_client.py
 
 
