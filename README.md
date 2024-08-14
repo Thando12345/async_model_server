@@ -32,18 +32,17 @@ To set up the `async_model_server` application, follow these steps:
    git clone https://github.com/Thando12345/async_model_server.git
    cd async_model_server
 
+2. **Create a Virtual Environment**  
+   Run the following command to create a virtual environment:
 
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
 
-2. Set Up a Virtual Environment (Recommended)
-
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
-3. Install Dependencies
-
-Install the required Python packages using the provided requirements.txt.
-
-pip install -r requirements.txt
+3. **Install Dependencies**  
+   Install the required Python packages using the provided `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
 
 ## Configuration
 
